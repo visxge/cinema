@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    url('images/LandingBG.jpg');
+    
+    background-size: cover;
+    
+}
+
+
+
+.navbar {
+    background-image: linear-gradient(to right, #272626, #9b0707);
+    padding: 10px !important;
+}
+
+nav a {
+	color: #ffffff !important;
+	text-align: center;
+	font-size: 18px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #272626, #9b0707);
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    text-align: center;
+}
+
+
+#title{
+    color: #eeeded;
+    font-size: 64px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1.28px;
+}
+
+#description{
+    color: #ccc8c8;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#button {
+    border-radius: 999px;
+    background-image: linear-gradient(to right, #b81818 ,#271515) ;
+    padding: 12px 32px;
+    color: var(--button-text-button-primary-text, #FFF);
+    text-align: center rgb(163, 115, 115);
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#showing{
+    color: #fafafa !important;
+	text-align: center;
+	font-size: 80px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#movies {
+	color: #ffffff !important;
+	text-align: center;
+	font-size: 40px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+
+}
+
+#movies + p {
+	color: #ffffff !important;
+	text-align: center;
+	font-size: 24px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+div .carousel-item {
+	background: url(<path-to-image), lightgray 50% / cover no-repeat;
+	width: 830px;
+	height: 401px;
+}
+
+#album {
+	background-image: linear-gradient(to right, #7d1717, #121010);
+	box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);
+	width: 1245px;
+	height: 764px;
+	flex-shrink: 0;
+}
+
+.AlbumTitle {
+	color: #ffffff !important;
+	font-size: 40px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#AlbumDescription {
+	color: #ffffff !important;
+	font-size: 24px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+#carouselExampleIndicators {
+	border-radius: 50%;
+}
+
+
+
+.carousel-indicators {
+	left: 0;
+	top: auto;
+}
+
+.carousel-indicators li {
+	background: #ffffff 50%;
+	border-radius: 50%;
+	width: 20px;
+	height: 0.1px;
+}
+
+.carousel-indicators .active {
+	background: #ffffff;
+}
+
+
+
+#Contact {
+	background-color: #fff2e4;
+}
+
+#ContactForm h2 {
+	color: #eeeeee;
+	font-size: 40px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#ContactForm p {
+	color: #ffffff;
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+#ContactForm form {
+	color: #f1eeee;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#ContactForm button {
+	color: var(--button-text-button-primary-text, #973838);
+	text-align: center;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	border-radius: 999px;
+	background: #e4e1dd;
+}
+
+#ContactImage {
+	background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    	url("images/popcorn.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 5px solid white;
+	
+}
+
+footer {
+	background-image: linear-gradient(to right, #272626, #9b0707);;
+}
+
+footer .mx-2 {
+	color: #FFF2E4 !important;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+
+/* LOGIN */
+
+
+#loginCard {
+	background-image: linear-gradient(to right, #272626, #9b0707);
+}
+
+#titleLogin{
+	color: rgb(233, 218, 218) !important;
+	text-align: center;
+	font-size: 40px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
